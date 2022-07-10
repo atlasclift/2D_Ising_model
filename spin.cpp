@@ -176,11 +176,6 @@ int main(){
 
 	}//end do for das T
 	
-	//no binder ratio, g_L
-	//falta calcular o nu por trial e error
-	
-	
-		
 
 
 
