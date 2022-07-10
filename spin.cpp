@@ -172,7 +172,8 @@ int main(){
 		
 		//cout << (mediaM4/double(maxam)) << "\t" << (mediaM2/double(maxam)) << endl;
 		//cout << T << "\t" << g_L << endl;
-		cout << pow(l,double(1.0/1.0))*(T - 2.275) << "\t" << g_L << endl;
+		double finite_nu = 1.0;
+		cout << pow(l,double(1.0/finite_nu))*(T - 2.275) << "\t" << g_L << endl;
 
 	}//end do for das T
 	
